@@ -1,0 +1,35 @@
+{
+  "name": "phaser-starter",
+  "version": "1.0.0",
+  "description": "phaser game starter",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "format": "prettier --write './src/**/*.{js,json,md}'",
+    "lint": "prettier --list-different './src/**/*.{js,json,md}'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huanz/phaser.git"
+  },
+  "keywords": [
+    "phaser",
+    "game",
+    "convas",
+    "webgl"
+  ],
+  "author": "bukas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huanz/phaser/issues"
+  },
+  "homepage": "https://github.com/huanz/phaser#readme",
+  "dependencies": {
+    "phaser": "^3.15.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3",
+    "prettier": "^1.15.2"
+  }
+}
